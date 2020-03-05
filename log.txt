@@ -1,0 +1,215 @@
+2020-02-24 16:42:13.039671 --> Bot connected to Discord - 1.0.0
+2020-02-24 16:44:04.650217 --> Bot connected to Discord - 1.0.0
+2020-02-24 16:45:51.146316 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:31:47.289361 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:31:47.289959 --> Updated Save File
+2020-02-24 19:34:52.117956 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:35:31.132652 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:35:31.133420 --> Updated Save File
+2020-02-24 19:39:51.742457 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:39:51.743169 --> Updated Save File
+2020-02-24 19:43:49.521421 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:43:49.522051 --> Updated Save File
+2020-02-24 19:44:10.312787 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:44:10.313536 --> Updated Save File
+2020-02-24 19:44:18.212565 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:44:18.213406 --> Updated Save File
+2020-02-24 19:46:16.463641 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:46:16.464355 --> Updated Save File
+2020-02-24 19:47:45.138321 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:47:45.138605 --> Updated Save File
+2020-02-24 19:51:46.134711 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:51:46.135073 --> Updated Save File
+2020-02-24 19:53:17.155486 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:53:17.156238 --> Updated Save File
+2020-02-24 19:53:56.215859 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:53:56.216912 --> Updated Save File
+2020-02-24 19:54:24.916839 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:54:24.917670 --> Updated Save File
+2020-02-24 19:54:46.314837 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:54:46.315096 --> Updated Save File
+2020-02-24 19:57:32.515252 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:57:32.515498 --> Updated Save File
+2020-02-24 19:58:11.015658 --> Bot connected to Discord - 1.0.0
+2020-02-24 19:58:11.016165 --> Updated Save File
+2020-02-24 20:08:18.152314 --> Bot connected to Discord - 0.0.0
+2020-02-24 20:08:18.152956 --> Updated Save File
+2020-02-24 20:08:33.262718 --> Bot connected to Discord - 0.0.0
+2020-02-24 20:08:33.263376 --> Updated Save File
+2020-02-24 20:08:46.692100 --> Bot connected to Discord - 0.0.0
+2020-02-24 20:08:46.692339 --> Updated Save File
+2020-02-24 20:09:42.747137 --> Bot connected to Discord - 0.0.0
+2020-02-24 20:09:42.747859 --> Updated Save File
+2020-02-24 20:10:55.785721 --> Bot connected to Discord - 0.0.0
+2020-02-24 20:10:55.786369 --> Updated Save File
+2020-02-24 20:11:06.222437 --> Bot connected to Discord - 0.0.0
+2020-02-24 20:11:06.222653 --> Updated Save File
+2020-02-24 23:24:06.962054 --> Bot connected to Discord - 0.0.0
+2020-02-24 23:24:06.962480 --> Updated Save File
+2020-02-24 23:24:51.721443 --> Bot connected to Discord - 0.0.0
+2020-02-24 23:24:51.722160 --> Updated Save File
+2020-02-24 23:25:07.911255 --> Bot connected to Discord - 0.0.0
+2020-02-24 23:25:07.911683 --> Updated Save File
+2020-02-24 23:25:52.357576 --> Bot connected to Discord - 0.0.0
+2020-02-24 23:25:52.357846 --> Updated Save File
+2020-02-24 23:28:28.292403 --> Bot connected to Discord - 0.0.0
+2020-02-24 23:28:28.293102 --> Updated Save File
+2020-02-24 23:32:04.451030 --> Bot connected to Discord - 0.0.0
+2020-02-24 23:32:04.451379 --> Updated Save File
+2020-02-24 23:33:23.104487 --> Bot connected to Discord - 0.0.0
+2020-02-24 23:33:23.104823 --> Updated Save File
+2020-02-26 08:27:56.079636 --> Bot connected to Discord - 0.0.0
+2020-02-26 08:27:56.127659 --> Updated Save File
+2020-02-26 10:17:07.556073 --> Bot connected to Discord - 0.0.0
+2020-02-26 10:17:07.588446 --> Updated Save File
+2020-02-26 10:42:36.515361 --> Bot connected to Discord - 0.0.0
+2020-02-26 10:42:36.516010 --> Updated Save File
+2020-02-26 10:43:32.192153 --> Bot connected to Discord - 0.0.0
+2020-02-26 10:43:32.192666 --> Updated Save File
+2020-02-26 10:56:31.055472 --> Bot connected to Discord - 0.0.0
+2020-02-26 10:56:31.123947 --> Updated Save File
+2020-02-26 10:56:46.520951 --> Bot connected to Discord - 0.0.0
+2020-02-26 10:56:46.521152 --> Updated Save File
+2020-02-26 11:12:48.930296 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:12:48.931087 --> Updated Save File
+2020-02-26 11:16:23.614029 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:16:23.614453 --> Updated Save File
+2020-02-26 11:19:04.298187 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:19:04.298613 --> Updated Save File
+2020-02-26 11:21:03.984705 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:21:03.984937 --> Updated Save File
+2020-02-26 11:21:25.898059 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:21:25.898456 --> Updated Save File
+2020-02-26 11:22:03.104650 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:22:03.104885 --> Updated Save File
+2020-02-26 11:23:24.208667 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:23:24.209415 --> Updated Save File
+2020-02-26 11:25:09.451124 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:25:09.451442 --> Updated Save File
+2020-02-26 11:28:17.795800 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:28:17.796422 --> Updated Save File
+2020-02-26 11:29:24.008976 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:29:24.009540 --> Updated Save File
+2020-02-26 11:29:44.384538 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:29:44.385187 --> Updated Save File
+2020-02-26 11:30:51.868136 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:30:51.868476 --> Updated Save File
+2020-02-26 11:31:29.460191 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:31:29.460622 --> Updated Save File
+2020-02-26 11:32:06.861537 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:32:06.862001 --> Updated Save File
+2020-02-26 11:33:30.228266 --> Bot connected to Discord - 0.0.0
+2020-02-26 11:33:30.228755 --> Updated Save File
+2020-02-26 12:20:59.164868 --> Bot connected to Discord - 0.0.0
+2020-02-26 12:20:59.165522 --> Updated Save File
+2020-02-26 12:32:24.647885 --> Bot connected to Discord - 0.0.0
+2020-02-26 12:32:24.648516 --> Updated Save File
+2020-02-26 12:36:11.984358 --> Bot connected to Discord - 0.0.0
+2020-02-26 12:36:11.984731 --> Updated Save File
+2020-02-26 12:38:23.976775 --> Bot connected to Discord - 0.0.0
+2020-02-26 12:38:23.977519 --> Updated Save File
+2020-02-26 12:40:03.300855 --> Bot connected to Discord - 0.0.0
+2020-02-26 12:40:03.301152 --> Updated Save File
+2020-02-26 13:04:59.277308 --> Bot connected to Discord - 0.0.0
+2020-02-26 13:04:59.278000 --> Updated Save File
+2020-02-26 13:08:19.983663 --> Bot connected to Discord - 0.0.0
+2020-02-26 13:08:19.984078 --> Updated Save File
+2020-02-26 13:11:24.510850 --> Bot connected to Discord - 0.0.0
+2020-02-26 13:11:24.511233 --> Updated Save File
+2020-02-26 13:56:44.486804 --> Bot connected to Discord - 0.0.0
+2020-02-26 13:56:44.487661 --> Updated Save File
+2020-02-26 13:58:00.566495 --> Bot connected to Discord - 0.0.0
+2020-02-26 13:58:00.567224 --> Updated Save File
+2020-02-26 14:54:33.763343 --> Bot connected to Discord - 0.0.0
+2020-02-26 14:54:33.763592 --> Updated Save File
+2020-02-26 14:54:58.431056 --> Bot connected to Discord - 0.0.0
+2020-02-26 14:54:58.431582 --> Updated Save File
+2020-02-26 14:57:12.237026 --> Bot connected to Discord - 0.0.0
+2020-02-26 14:57:12.237654 --> Updated Save File
+2020-02-26 14:58:51.973621 --> Bot connected to Discord - 0.0.0
+2020-02-26 14:58:51.974213 --> Updated Save File
+2020-02-26 14:59:16.640218 --> Bot connected to Discord - 0.0.0
+2020-02-26 14:59:16.640649 --> Updated Save File
+2020-02-26 15:04:54.422198 --> Bot connected to Discord - 0.0.0
+2020-02-26 15:04:54.422531 --> Updated Save File
+2020-02-26 15:05:06.532181 --> Bot connected to Discord - 0.0.0
+2020-02-26 15:05:06.532825 --> Updated Save File
+2020-02-26 15:13:38.663554 --> Bot connected to Discord - 0.0.0
+2020-02-26 15:13:38.664377 --> Updated Save File
+2020-02-26 15:14:36.520045 --> Bot connected to Discord - 0.0.0
+2020-02-26 15:14:36.520400 --> Updated Save File
+2020-02-26 15:15:19.118280 --> Bot connected to Discord - 0.0.0
+2020-02-26 15:15:19.118672 --> Updated Save File
+2020-02-26 16:17:39.922125 --> Bot connected to Discord - 0.0.0
+2020-02-26 16:17:39.939143 --> Updated Save File
+2020-02-26 16:19:16.295252 --> Bot connected to Discord - 0.0.0
+2020-02-26 16:19:16.353957 --> Updated Save File
+2020-02-26 16:23:34.050681 --> Bot connected to Discord - 0.0.0
+2020-02-26 16:23:34.051381 --> Updated Save File
+2020-02-26 16:27:36.833996 --> Bot connected to Discord - 0.0.0
+2020-02-26 16:27:36.834700 --> Updated Save File
+2020-02-26 16:38:24.192672 --> Bot connected to Discord - 0.0.0
+2020-02-26 16:38:24.193401 --> Updated Save File
+2020-02-26 17:35:10.812914 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:35:10.901549 --> Updated Save File
+2020-02-26 17:36:22.143198 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:36:22.143810 --> Updated Save File
+2020-02-26 17:37:08.219248 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:37:08.219992 --> Updated Save File
+2020-02-26 17:37:41.287863 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:37:41.288475 --> Updated Save File
+2020-02-26 17:39:10.273424 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:39:10.273942 --> Updated Save File
+2020-02-26 17:40:09.630528 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:40:09.631166 --> Updated Save File
+2020-02-26 17:40:14.991823 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:40:14.992252 --> Updated Save File
+2020-02-26 17:41:52.152731 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:41:52.153345 --> Updated Save File
+2020-02-26 17:42:32.209345 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:42:32.209788 --> Updated Save File
+2020-02-26 17:43:38.342598 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:43:38.343180 --> Updated Save File
+2020-02-26 17:44:10.553663 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:44:10.554073 --> Updated Save File
+2020-02-26 17:45:17.312453 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:45:17.312777 --> Updated Save File
+2020-02-26 17:46:17.797914 --> Bot connected to Discord - 0.0.0
+2020-02-26 17:46:17.798169 --> Updated Save File
+2020-02-26 18:24:36.939619 --> Bot connected to Discord - 0.0.0
+2020-02-26 18:24:36.978001 --> Updated Save File
+2020-02-26 18:29:33.494553 --> Bot connected to Discord - 0.0.0
+2020-02-26 18:29:33.495079 --> Updated Save File
+2020-02-26 18:31:00.271747 --> Bot connected to Discord - 0.0.0
+2020-02-26 18:31:00.272155 --> Updated Save File
+2020-02-26 18:44:02.534519 --> Bot connected to Discord - 0.0.0
+2020-02-26 18:44:02.723628 --> Updated Save File
+2020-02-26 18:44:14.872602 --> Updated Save File
+2020-02-26 18:45:03.066055 --> Bot connected to Discord - 0.0.0
+2020-02-26 18:45:03.066715 --> Updated Save File
+2020-02-26 18:45:14.464870 --> Updated Save File
+2020-02-26 19:03:39.471030 --> ✅
+2020-02-26 19:04:23.197202 --> 🔒
+2020-02-26 19:04:55.771229 --> 🔓
+2020-02-26 19:05:28.529499 --> 📌
+2020-02-26 21:05:50.708827 --> Bot connected to Discord - 0.0.0
+2020-02-26 21:05:50.761109 --> Updated Save File
+2020-02-26 21:07:06.696399 --> ℹ️
+2020-02-26 21:07:31.374792 --> ▶️
+2020-02-26 21:09:30.981909 --> Updated Save File
+2020-02-26 21:09:31.391543 --> ✏️
+2020-02-26 21:09:31.902380 --> ⌛
+2020-02-26 21:09:32.413749 --> ❌
+2020-02-26 21:09:33.030773 --> 📎
+2020-02-26 21:09:33.541035 --> ❔
+2020-02-26 21:10:49.681443 --> Bot connected to Discord - 0.0.0
+2020-02-26 21:10:49.682081 --> Updated Save File
+2020-02-26 22:49:26.311018 --> Bot connected to Discord - 0.0.0
+2020-02-26 22:49:26.353758 --> Updated Save File
+2020-02-26 22:55:58.880209 --> Bot connected to Discord - 0.0.0
+2020-02-26 22:55:58.880979 --> Updated Save File
+2020-02-26 22:56:36.539541 --> Bot connected to Discord - 0.0.0
+2020-02-26 22:56:36.540035 --> Updated Save File
+2020-02-28 21:20:50.504526 --> Bot connected to Discord - 0.0.0
+2020-02-28 21:20:50.517627 --> Updated Save File
+2020-02-28 22:11:29.620517 --> 12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
