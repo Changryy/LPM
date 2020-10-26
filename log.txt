@@ -213,3 +213,533 @@
 2020-02-28 21:20:50.504526 --> Bot connected to Discord - 0.0.0
 2020-02-28 21:20:50.517627 --> Updated Save File
 2020-02-28 22:11:29.620517 --> 12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+2020-03-21 16:40:41.625403 --> Bot connected to Discord - 0.0.0
+2020-03-21 16:40:41.759819 --> Updated Save File
+2020-03-21 16:49:50.630166 --> ```
+Measure
+- text
+- - markdowns
+- - - find markdowns
+?- - - - codeblock
+!- - - - spoiler, strikethrough, underline
+!- - - - bold
+!- - - - italics
+- - - apply markdowns
+- - - - codeblock
+- - - - bold
+- - - - italics
+- - textwrapping
+- - - calculate wrapping
+- - - apply wrapping
+- tree
+- - branches
+- - - size
+Draw
+!- Canvas
+!- - frame
+!- - background
+- tree
+- - root
+- - - title
+- - branches
+- - - text
+- - - bubble
+```
+2020-03-21 16:54:09.192745 --> tasks
+2020-03-21 20:44:46.020221 --> Bot connected to Discord - 0.0.0
+2020-03-21 20:44:46.020648 --> Updated Save File
+2020-03-21 20:45:55.438443 --> ❎
+2020-03-21 20:49:26.794239 --> ✅
+2020-03-21 20:49:58.175521 --> Bot connected to Discord - 0.0.0
+2020-03-21 20:49:58.176098 --> Updated Save File
+2020-03-21 20:50:08.465322 --> tasks
+2020-03-21 21:31:31.378498 --> ☑️ ⛔
+2020-03-21 22:16:50.515273 --> Bot connected to Discord - 0.0.0
+2020-03-21 22:16:50.516005 --> Updated Save File
+2020-03-21 22:25:22.421870 --> tasks
+2020-03-21 22:26:55.151918 --> Bot connected to Discord - 0.0.0
+2020-03-21 22:26:55.152667 --> Updated Save File
+2020-03-21 22:27:09.811551 --> Bot connected to Discord - 0.0.0
+2020-03-21 22:27:09.812241 --> Updated Save File
+2020-03-21 22:27:55.320080 --> tasks
+2020-03-21 22:30:22.309554 --> Bot connected to Discord - 0.0.0
+2020-03-21 22:30:22.310504 --> Updated Save File
+2020-03-21 22:30:32.284714 --> tasks
+2020-03-21 22:30:35.766731 --> Updated Save File
+2020-03-21 22:30:41.297492 --> Updated Save File
+2020-03-21 22:30:45.392715 --> tasks
+2020-03-21 22:32:06.490324 --> Bot connected to Discord - 0.0.0
+2020-03-21 22:32:06.490917 --> Updated Save File
+2020-03-21 22:32:35.171944 --> <@!398730959186427916> Go to bed
+2020-03-21 22:32:35.174127 --> Updated Save File
+2020-03-21 22:32:48.753924 --> Updated Save File
+2020-03-21 22:32:50.659255 --> Updated Save File
+2020-03-22 14:20:04.554667 --> Bot connected to Discord - 0.0.0
+2020-03-22 14:20:04.555044 --> Updated Save File
+2020-03-22 14:20:13.387077 --> tasks
+2020-03-22 14:22:28.202897 --> Bot connected to Discord - 0.0.0
+2020-03-22 14:22:28.203196 --> Updated Save File
+2020-03-22 14:22:28.791473 --> tasks
+2020-03-22 14:22:35.577997 --> <@!398730959186427916> eat banana
+2020-03-22 14:22:35.580285 --> Updated Save File
+2020-03-22 14:22:44.350472 --> Updated Save File
+2020-03-22 14:27:14.355142 --> tasks
+2020-03-22 14:30:16.787682 --> Bot connected to Discord - 0.0.0
+2020-03-22 14:30:16.788181 --> Updated Save File
+2020-03-22 14:30:32.089510 --> tasks
+2020-03-22 14:31:09.262100 --> Updated Save File
+2020-03-22 14:31:13.868475 --> Updated Save File
+2020-03-22 14:56:40.212443 --> Bot connected to Discord - 0.0.0
+2020-03-22 14:56:40.212804 --> Updated Save File
+2020-03-22 14:56:49.668077 --> <@!398730959186427916> Hello there
+2020-03-22 14:56:49.671101 --> Updated Save File
+2020-03-22 14:57:08.255285 --> Updated Save File
+2020-03-22 14:57:11.070244 --> Updated Save File
+2020-03-22 14:59:15.894862 --> tasks
+2020-03-22 18:49:03.638002 --> Bot connected to Discord - 0.0.0
+2020-03-22 18:49:03.639079 --> Updated Save File
+2020-03-22 18:52:42.479372 --> Bot connected to Discord - 0.0.0
+2020-03-22 18:52:42.480236 --> Updated Save File
+2020-03-22 18:53:40.284642 --> Bot connected to Discord - 0.0.0
+2020-03-22 18:53:40.285127 --> Updated Save File
+2020-03-22 18:53:54.153417 --> Updated Save File
+2020-03-22 18:55:45.316654 --> Bot connected to Discord - 0.0.0
+2020-03-22 18:55:45.317022 --> Updated Save File
+2020-03-22 18:56:43.932499 --> tasksc
+2020-03-22 18:56:44.208488 --> Bot connected to Discord - 0.0.0
+2020-03-22 18:56:44.209491 --> Updated Save File
+2020-03-22 18:58:23.111039 --> Bot connected to Discord - 0.0.0
+2020-03-22 18:58:23.111888 --> Updated Save File
+2020-03-22 19:02:30.003267 --> Bot connected to Discord - 0.0.0
+2020-03-22 19:02:30.004374 --> Updated Save File
+2020-03-22 19:03:04.874839 --> Updated Save File
+2020-03-22 19:03:22.886644 --> Updated Save File
+2020-03-22 19:42:01.437662 --> Bot connected to Discord - 0.0.0
+2020-03-22 19:42:01.438299 --> Updated Save File
+2020-03-22 19:42:13.169414 --> <@!398730959186427916> heiiiiiiiiiiiiii
+2020-03-22 19:42:13.172220 --> Updated Save File
+2020-03-22 19:43:44.043911 --> Bot connected to Discord - 0.0.0
+2020-03-22 19:43:44.044317 --> Updated Save File
+2020-03-22 19:44:19.865488 --> Updated Save File
+2020-03-22 20:16:07.706044 --> Bot connected to Discord - 0.0.0
+2020-03-22 20:16:07.706438 --> Updated Save File
+2020-03-22 20:17:14.673803 --> Updated Save File
+2020-03-22 20:17:19.019181 --> Updated Save File
+2020-03-22 20:17:55.677636 --> task
+2020-03-22 20:18:05.917816 --> <@!398730959186427916> hello!
+2020-03-22 20:18:05.919400 --> Updated Save File
+2020-03-22 20:18:17.597573 --> Updated Save File
+2020-03-22 20:19:56.306228 --> Updated Save File
+2020-03-22 20:20:03.166945 --> Updated Save File
+2020-03-22 20:20:09.309903 --> Updated Save File
+2020-03-22 20:22:20.765226 --> Bot connected to Discord - 0.0.0
+2020-03-22 20:22:20.765723 --> Updated Save File
+2020-03-22 20:22:40.710207 --> Updated Save File
+2020-03-22 20:49:12.952031 --> Bot connected to Discord - 0.0.0
+2020-03-22 20:49:12.952556 --> Updated Save File
+2020-03-22 20:58:48.734231 --> Bot connected to Discord - 0.0.0
+2020-03-22 20:58:49.578458 --> Updated Save File
+2020-03-22 21:03:03.450316 --> Bot connected to Discord - 0.0.0
+2020-03-22 21:03:03.451048 --> Updated Save File
+2020-03-22 21:03:56.590978 --> Updated Save File
+2020-03-22 21:04:03.805062 --> Updated Save File
+2020-03-22 21:04:21.372521 --> Updated Save File
+2020-03-22 21:04:26.446211 --> Updated Save File
+2020-03-22 21:04:29.564382 --> Updated Save File
+2020-03-22 21:04:47.996781 --> Updated Save File
+2020-03-22 21:06:01.373876 --> Bot connected to Discord - 0.0.0
+2020-03-22 21:06:01.374966 --> Updated Save File
+2020-03-22 21:08:09.316019 --> Updated Save File
+2020-03-22 21:08:14.640477 --> Updated Save File
+2020-03-22 21:09:19.558533 --> Updated Save File
+2020-03-22 21:30:31.943756 --> Bot connected to Discord - 0.0.0
+2020-03-22 21:30:31.944676 --> Updated Save File
+2020-03-23 01:48:15.774925 --> Bot connected to Discord - 0.0.0
+2020-03-23 01:48:15.775240 --> Updated Save File
+2020-03-23 04:37:58.753146 --> Bot connected to Discord - 0.0.0
+2020-03-23 04:37:58.754226 --> Updated Save File
+2020-03-23 04:41:10.058666 --> Bot connected to Discord - 0.0.0
+2020-03-23 04:41:10.059598 --> Updated Save File
+2020-03-23 04:41:24.110606 --> Updated Save File
+2020-03-23 04:41:29.026636 --> Updated Save File
+2020-03-23 04:42:58.114832 --> <@!398730959186427916> bananas are awesome
+2020-03-23 04:42:58.116984 --> Updated Save File
+2020-03-23 04:43:04.463354 --> <@!398730959186427916> I like food
+2020-03-23 04:43:04.464021 --> Updated Save File
+2020-03-23 04:43:35.887104 --> Updated Save File
+2020-03-23 04:44:49.533902 --> Updated Save File
+2020-03-23 04:44:52.700356 --> Updated Save File
+2020-03-23 04:45:09.903735 --> Updated Save File
+2020-03-23 04:45:12.770915 --> Updated Save File
+2020-03-23 04:45:30.106378 --> Updated Save File
+2020-03-23 04:45:33.299518 --> Updated Save File
+2020-03-23 04:47:04.845870 --> taks
+2020-03-23 04:48:31.590936 --> Bot connected to Discord - 0.0.0
+2020-03-23 04:48:31.592059 --> Updated Save File
+2020-03-23 04:48:44.331849 --> <@!398730959186427916> eat a banana
+2020-03-23 04:48:44.335200 --> Updated Save File
+2020-03-23 04:48:50.576500 --> <@!398730959186427916> I like apples
+2020-03-23 04:48:50.577290 --> Updated Save File
+2020-03-23 04:48:57.744589 --> <@!398730959186427916>  I should really sleep
+2020-03-23 04:48:57.745833 --> Updated Save File
+2020-03-23 04:49:33.500392 --> Updated Save File
+2020-03-23 04:49:46.692580 --> Updated Save File
+2020-03-23 04:49:52.221760 --> Updated Save File
+2020-03-23 04:50:03.998052 --> Updated Save File
+2020-03-23 04:50:11.097473 --> Updated Save File
+2020-03-23 04:50:21.692146 --> Updated Save File
+2020-03-23 04:50:30.417772 --> Updated Save File
+2020-03-23 04:50:40.964795 --> Updated Save File
+2020-03-23 04:50:43.114364 --> Updated Save File
+2020-03-23 04:53:03.198440 --> Updated Save File
+2020-03-23 04:53:07.766631 --> Updated Save File
+2020-03-23 04:56:25.600757 --> Bot connected to Discord - 0.0.0
+2020-03-23 04:56:25.601360 --> Updated Save File
+2020-03-23 04:56:34.040566 --> Updated Save File
+2020-03-23 04:56:39.739706 --> Updated Save File
+2020-03-23 05:00:39.510539 --> Bot connected to Discord - 0.0.0
+2020-03-23 05:00:39.511074 --> Updated Save File
+2020-03-23 05:00:53.010841 --> Updated Save File
+2020-03-23 05:00:56.491700 --> Updated Save File
+2020-03-23 05:01:39.193283 --> Updated Save File
+2020-03-23 05:01:42.162306 --> Updated Save File
+2020-03-23 05:02:59.064833 --> task
+2020-03-23 05:03:26.855960 --> Updated Save File
+2020-03-23 05:03:35.370515 --> Updated Save File
+2020-03-23 05:03:52.313463 --> Updated Save File
+2020-03-23 05:03:57.268018 --> Updated Save File
+2020-03-23 05:04:01.837881 --> Updated Save File
+2020-03-23 05:04:19.450252 --> Updated Save File
+2020-03-23 05:04:26.500140 --> Updated Save File
+2020-03-23 05:07:44.997607 --> Bot connected to Discord - 0.0.0
+2020-03-23 05:07:44.998443 --> Updated Save File
+2020-03-23 05:08:13.127906 --> Updated Save File
+2020-03-23 05:08:19.476265 --> Updated Save File
+2020-03-23 05:08:34.266191 --> Updated Save File
+2020-03-23 05:08:43.027852 --> Updated Save File
+2020-03-23 05:08:47.636614 --> Updated Save File
+2020-03-23 05:08:59.924665 --> Updated Save File
+2020-04-10 13:51:58.075263 --> Bot connected to Discord - 0.0.0
+2020-04-10 13:51:58.329383 --> Updated Save File
+2020-04-10 13:52:28.091529 --> Updated Save File
+2020-04-10 13:52:35.770566 --> Updated Save File
+2020-04-10 13:52:42.133863 --> Updated Save File
+2020-04-10 13:52:47.444472 --> Updated Save File
+2020-04-10 13:52:49.902225 --> Updated Save File
+2020-04-10 14:23:32.574335 --> Bot connected to Discord - 0.0.0
+2020-04-10 14:23:32.574821 --> Updated Save File
+2020-04-10 15:06:03.510504 --> Bot connected to Discord - 0.0.0
+2020-04-10 15:06:03.511217 --> Updated Save File
+2020-04-10 16:43:56.222825 --> Bot connected to Discord - 0.0.0
+2020-04-10 16:43:56.223538 --> Updated Save File
+2020-04-10 17:40:34.660151 --> <@!398730959186427916> Eat a banana
+2020-04-10 17:40:34.662900 --> Updated Save File
+2020-04-10 17:41:16.483148 --> Updated Save File
+2020-04-10 17:43:59.769279 --> Updated Save File
+2020-04-10 17:44:13.286509 --> Updated Save File
+2020-04-10 17:44:19.229113 --> Updated Save File
+2020-04-10 17:44:32.742985 --> Updated Save File
+2020-04-10 17:45:21.401090 --> Updated Save File
+2020-04-10 17:45:37.825599 --> Bot connected to Discord - 0.0.0
+2020-04-10 17:45:37.826334 --> Updated Save File
+2020-05-27 00:23:00.248766 --> Bot connected to Discord - 0.0.0
+2020-05-27 00:23:00.365770 --> Updated Save File
+2020-05-27 00:23:31.732693 --> Updated Save File
+2020-05-27 00:23:37.774286 --> Updated Save File
+2020-05-27 00:26:55.190106 --> <@!279451614840881152>
+2020-05-27 00:27:33.296894 --> You there?
+2020-05-27 00:28:03.300251 --> Yes.
+2020-05-27 00:28:19.889047 --> Ready for a test?
+2020-05-27 00:29:22.148782 --> Yes.
+2020-05-27 00:29:47.543038 --> <@!279451614840881152> Eat a banana
+2020-05-27 00:29:47.544760 --> Updated Save File
+2020-05-27 00:30:11.300783 --> Try clicking the first one
+2020-05-27 00:30:25.841774 --> Updated Save File
+2020-05-27 00:30:43.966802 --> now try `tasks`
+2020-05-27 00:31:29.363103 --> I totally forgot that it says who made the task xP
+2020-05-27 00:32:07.730809 --> Try the ✏️
+2020-05-27 00:32:59.545824 --> Got a call. Give me a sec.
+2020-05-27 00:36:38.069803 --> What now?
+2020-05-27 00:36:58.958812 --> Wait
+2020-05-27 00:37:04.386492 --> I wasnt paying attention
+2020-05-27 00:37:16.162033 --> what did you click on the first one?
+2020-05-27 00:37:24.046863 --> Updated Save File
+2020-05-27 00:37:46.983821 --> do `tasks` again
+2020-05-27 00:39:18.325971 --> Updated Save File
+2020-05-27 00:39:28.872761 --> click edit
+2020-05-27 00:39:50.684155 --> Updated Save File
+2020-05-27 00:39:55.292498 --> Hm
+2020-05-27 00:40:02.768912 --> I already see something I have to fix
+2020-05-27 00:40:31.849747 --> Do `tasks` > `edit` > `delete`
+2020-05-27 00:41:01.137478 --> Updated Save File
+2020-05-27 00:41:06.768068 --> Updated Save File
+2020-05-27 00:41:54.077259 --> Did it work?
+2020-05-27 00:42:05.341572 --> I wasnt paying attention again
+2020-05-27 00:42:23.488335 --> It deleted something.
+2020-05-27 00:42:58.283061 --> try `tasks` again
+2020-05-27 01:16:52.983780 --> Allie
+2020-05-27 01:17:07.319277 --> Yes?
+2020-05-27 01:17:57.803693 --> wyd?
+2020-05-27 01:18:25.963679 --> Waiting for you to continue the test.
+2020-05-27 01:19:30.476333 --> So if you noticed, when I click `delete` on your task, nothing happens
+2020-05-27 01:19:36.414841 --> I should fix that
+2020-05-27 01:20:11.640864 --> I didn’t make a task though.
+2020-05-27 01:20:24.543509 --> I did
+2020-05-27 01:20:39.084433 --> <@!279451614840881152> This is your new task
+2020-05-27 01:20:39.085788 --> Updated Save File
+2020-05-27 01:20:51.371716 --> Updated Save File
+2020-05-27 01:20:59.973948 --> See? you have a task now
+2020-05-27 01:21:14.618182 --> Updated Save File
+2020-05-27 01:21:28.235672 --> What did you click?
+2020-05-27 01:21:44.656685 --> It asked if I completed the task, I clicked the x.
+2020-05-27 01:21:57.932808 --> Wait what lol
+2020-05-27 01:22:17.227061 --> It didn’t even tell me the task.
+2020-05-27 01:23:01.421629 --> type `tasks`
+2020-05-27 01:23:17.779021 --> thats your task
+2020-05-27 01:23:37.670744 --> My task is, “This is your new task”?
+2020-05-27 01:23:41.563043 --> Yep
+2020-05-27 01:23:47.910454 --> Because I gave it that name
+2020-05-27 01:24:51.911228 --> <@!279451614840881152> Clean up bedroom
+2020-05-27 01:24:51.912180 --> Updated Save File
+2020-05-27 01:24:57.747822 --> thats a better task name
+2020-05-27 01:25:04.813265 --> do tasks again
+2020-05-27 01:25:26.868226 --> Neat!
+2020-05-27 01:25:29.390355 --> Delete the first one
+2020-05-27 01:25:36.046179 --> I really should do that though.
+2020-05-27 01:25:48.537998 --> Updated Save File
+2020-05-27 01:25:51.815421 --> Updated Save File
+2020-05-27 01:27:00.566608 --> Updated Save File
+2020-05-27 01:27:02.266587 --> Um
+2020-05-27 01:27:23.976445 --> Do what you did last time
+2020-05-27 01:27:43.943371 --> Updated Save File
+2020-05-27 01:27:47.732277 --> Updated Save File
+2020-05-27 01:27:54.120684 --> Huh
+2020-05-27 01:29:30.645741 --> <@!398730959186427916> test task
+2020-05-27 01:29:30.648118 --> Updated Save File
+2020-05-27 01:29:39.409214 --> Updated Save File
+2020-05-27 01:29:41.498933 --> Updated Save File
+2020-05-27 01:29:46.005590 --> Updated Save File
+2020-05-27 01:29:49.794028 --> Works for me
+2020-05-27 01:29:54.913542 --> Updated Save File
+2020-05-27 01:29:59.726186 --> Updated Save File
+2020-05-27 01:30:13.857165 --> But not for me.
+2020-05-27 01:30:46.215402 --> Updated Save File
+2020-05-27 01:30:48.673619 --> Updated Save File
+2020-05-27 01:31:22.363883 --> Try again but dont click the x
+2020-05-27 01:31:28.712159 --> just let it be
+2020-05-27 01:31:44.378952 --> Updated Save File
+2020-05-27 01:31:56.426405 --> ok, time to check what the problem is
+2020-05-27 01:35:45.019880 --> Updated Save File
+2020-05-27 01:36:01.667830 --> Bot connected to Discord - 0.0.0
+2020-05-27 01:36:01.668242 --> Updated Save File
+2020-05-27 01:36:03.100830 --> Try now
+2020-05-27 01:36:18.709152 --> Updated Save File
+2020-05-27 01:36:24.956593 --> Updated Save File
+2020-05-27 01:36:27.412986 --> Works
+2020-05-27 01:36:32.328389 --> Indeed.
+2020-05-27 01:36:47.790837 --> Fixed it
+2020-05-27 01:37:51.075178 --> Now there was another error that had to be fixed
+2020-05-27 01:37:56.572014 --> Updated Save File
+2020-05-27 01:37:59.778292 --> click edit
+2020-05-27 01:38:16.162931 --> huh
+2020-05-27 01:38:27.018140 --> try again
+2020-05-27 01:38:50.253695 --> there
+2020-05-27 01:38:57.736972 --> it resent the msg
+2020-05-27 01:39:13.712413 --> I have to fix that
+2020-05-27 01:41:20.125227 --> Bot connected to Discord - 0.0.0
+2020-05-27 01:41:20.125846 --> Updated Save File
+2020-05-27 01:41:27.295553 --> Try now
+2020-05-27 01:41:46.697254 --> Updated Save File
+2020-05-27 01:41:51.919120 --> Nope
+2020-05-27 01:42:09.328177 --> It ads the reactions to the wrong msg
+2020-05-27 01:43:57.008030 --> Bot connected to Discord - 0.0.0
+2020-05-27 01:43:57.008369 --> Updated Save File
+2020-05-27 01:44:01.147836 --> Try again
+2020-05-27 01:44:54.294342 --> Updated Save File
+2020-05-27 01:45:06.377180 --> I'll leave it like that for now
+2020-05-27 01:45:22.176900 --> Okay.
+2020-05-27 01:45:37.097793 --> But there was also another bug
+2020-05-27 01:45:40.374585 --> click edit
+2020-05-27 01:45:54.709644 --> Updated Save File
+2020-05-27 01:46:03.722074 --> Yeah, nothing happened
+2020-05-27 01:47:25.744394 --> <@!398730959186427916>  test
+2020-05-27 01:47:25.746453 --> Updated Save File
+2020-05-27 01:47:37.622220 --> Updated Save File
+2020-05-27 01:47:43.530088 --> Updated Save File
+2020-05-27 01:48:14.384502 --> 🔙
+2020-05-27 01:51:13.277403 --> How does this reaction look?
+2020-05-27 01:51:24.848634 --> Screentshot
+2020-05-27 01:51:36.724048 --> 
+2020-05-27 01:51:47.990076 --> Almost invisible
+2020-05-27 01:51:56.591759 --> shouldnt use that one then
+2020-05-27 01:51:57.206247 --> Indeed.
+2020-05-27 01:52:27.210040 --> Oh, I know
+2020-05-27 01:52:34.428342 --> This one
+2020-05-27 01:52:55.222969 --> Yes.
+2020-05-27 01:53:45.648848 --> Does much different does it look as an emoji? ❌
+2020-05-27 01:54:04.900163 --> Or is it the same?
+2020-05-27 01:54:11.145572 --> screenshot
+2020-05-27 01:54:26.505764 --> 
+2020-05-27 01:55:59.484736 --> And how about this 🗑️
+2020-05-27 01:56:40.649159 --> It’s visible.
+2020-05-27 02:03:40.956110 --> Bot connected to Discord - 0.0.0
+2020-05-27 02:03:40.957260 --> Updated Save File
+2020-05-27 02:06:22.891063 --> Bot connected to Discord - 0.0.0
+2020-05-27 02:06:22.891463 --> Updated Save File
+2020-05-27 02:06:47.676592 --> Updated Save File
+2020-05-27 02:06:53.308111 --> Updated Save File
+2020-05-27 02:07:02.114283 --> Updated Save File
+2020-05-27 02:07:16.143429 --> Updated Save File
+2020-05-27 02:07:27.509864 --> Changed things a little
+2020-05-27 02:07:36.623120 --> try editing now
+2020-05-27 02:07:44.816529 --> <@!279451614840881152>
+2020-05-27 02:07:49.322624 --> Hello?
+2020-05-27 02:08:53.013224 --> Updated Save File
+2020-05-27 02:09:03.868578 --> Is the new version better?
+2020-05-27 02:09:16.974982 --> Yes.
+2020-05-27 02:09:38.889591 --> try deleting
+2020-05-27 02:09:58.038440 --> Updated Save File
+2020-05-27 02:10:01.830925 --> no
+2020-05-27 02:10:04.693468 --> Updated Save File
+2020-05-27 02:10:06.332158 --> ok
+2020-05-27 02:10:09.813995 --> works
+2020-05-27 02:10:24.559482 --> Whats next
+2020-05-27 02:10:30.293069 --> oh, right
+2020-05-27 02:10:33.876854 --> click edit
+2020-05-27 02:10:43.842542 --> Updated Save File
+2020-05-27 02:10:51.182683 --> Still havent fixed that
+2020-05-27 02:11:37.570711 --> But Im hungry
+2020-05-27 02:11:41.768699 --> Have you eaten?
+2020-05-27 02:12:13.000997 --> I have, but I’m hungry again.
+2020-05-27 02:12:32.866857 --> I'll make myself some toast as I always do
+2020-05-27 02:13:24.373339 --> Soup.
+2020-05-27 02:35:46.736261 --> back
+2020-05-27 02:40:44.064911 --> Bot connected to Discord - 0.0.0
+2020-05-27 02:40:44.065864 --> Updated Save File
+2020-05-27 02:41:20.436016 --> do tasks and click the 3rd one
+2020-05-27 02:42:05.104696 --> Didnt pay attention, can you do it again?
+2020-05-27 02:42:28.758715 --> Oh ok
+2020-05-27 02:43:39.094067 --> Bot connected to Discord - 0.0.0
+2020-05-27 02:43:39.094886 --> Updated Save File
+2020-05-27 02:43:39.352076 --> Try now
+2020-05-27 02:44:14.072973 --> Updated Save File
+2020-05-27 02:44:22.627385 --> Thats better
+2020-05-27 02:44:39.114730 --> But still not as it should be
+2020-05-27 02:46:16.694151 --> Bot connected to Discord - 0.0.0
+2020-05-27 02:46:16.694993 --> Updated Save File
+2020-05-27 02:46:17.315458 --> Try now
+2020-05-27 02:47:22.340389 --> Updated Save File
+2020-05-27 02:47:23.567783 --> Um
+2020-05-27 02:48:15.338200 --> Bot connected to Discord - 0.0.0
+2020-05-27 02:48:15.338680 --> Updated Save File
+2020-05-27 02:48:17.430838 --> Try again
+2020-05-27 02:48:57.776404 --> <@!279451614840881152>
+2020-05-27 02:49:00.312296 --> Youre slow
+2020-05-27 02:49:09.143085 --> Updated Save File
+2020-05-27 02:49:13.135806 --> Thats better
+2020-05-27 02:50:55.127194 --> Thank you for testing, I'll go take a break now
+2020-05-27 02:54:46.346021 --> No problem.
+2020-05-27 04:39:30.177119 --> Bot connected to Discord - 0.0.0
+2020-05-27 04:39:30.178123 --> Updated Save File
+2020-05-27 06:41:04.519232 --> Bot connected to Discord - 0.0.0
+2020-05-27 06:41:04.520232 --> Updated Save File
+2020-05-27 08:06:47.033758 --> Bot connected to Discord - 0.0.0
+2020-05-27 08:06:47.035118 --> Updated Save File
+2020-05-27 10:06:00.501644 --> Bot connected to Discord - 0.0.0
+2020-05-27 10:06:00.502282 --> Updated Save File
+2020-05-27 10:45:12.371033 --> Bot connected to Discord - 0.0.0
+2020-05-27 10:45:12.371390 --> Updated Save File
+2020-05-27 13:07:05.108623 --> Bot connected to Discord - 0.0.0
+2020-05-27 13:07:05.110077 --> Updated Save File
+2020-05-27 15:34:28.927048 --> Bot connected to Discord - 0.0.0
+2020-05-27 15:34:28.928113 --> Updated Save File
+2020-05-27 17:15:17.779265 --> Bot connected to Discord - 0.0.0
+2020-05-27 17:15:17.780271 --> Updated Save File
+2020-05-27 18:29:13.674693 --> Bot connected to Discord - 0.0.0
+2020-05-27 18:29:13.676071 --> Updated Save File
+2020-08-09 17:51:28.561558 --> Bot connected to Discord - 0.0.0
+2020-08-09 17:51:28.624713 --> Updated Save File
+2020-08-09 18:01:22.841068 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:01:22.841933 --> Updated Save File
+2020-08-09 18:01:27.660631 --> lpm
+2020-08-09 18:01:47.091135 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:01:47.091503 --> Updated Save File
+2020-08-09 18:01:49.558119 --> lpm helå
+2020-08-09 18:17:37.582939 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:17:37.583370 --> Updated Save File
+2020-08-09 18:23:01.775711 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:23:01.776341 --> Updated Save File
+2020-08-09 18:24:02.684079 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:24:02.684584 --> Updated Save File
+2020-08-09 18:24:28.007099 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:24:28.008020 --> Updated Save File
+2020-08-09 18:24:51.357268 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:24:51.357661 --> Updated Save File
+2020-08-09 18:24:54.765222 --> lmp help
+2020-08-09 18:29:05.047626 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:29:05.048555 --> Updated Save File
+2020-08-09 18:30:02.567234 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:30:02.567562 --> Updated Save File
+2020-08-09 18:30:53.564004 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:30:53.564420 --> Updated Save File
+2020-08-09 18:31:21.667436 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:31:21.668131 --> Updated Save File
+2020-08-09 18:33:28.173512 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:33:28.174921 --> Updated Save File
+2020-08-09 18:35:05.350834 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:35:05.351438 --> Updated Save File
+2020-08-09 18:36:45.724093 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:36:45.725026 --> Updated Save File
+2020-08-09 18:51:27.185075 --> Bot connected to Discord - 0.0.0
+2020-08-09 18:51:27.185830 --> Updated Save File
+2020-08-09 19:00:05.633244 --> Bot connected to Discord - 0.0.0
+2020-08-09 19:00:05.634823 --> Updated Save File
+2020-08-09 19:01:37.483990 --> Bot connected to Discord - 0.0.0
+2020-08-09 19:01:37.484703 --> Updated Save File
+2020-08-09 19:02:16.015808 --> tets
+2020-08-09 19:02:31.013904 --> Bot connected to Discord - 0.0.0
+2020-08-09 19:02:31.014707 --> Updated Save File
+2020-08-09 19:26:43.293083 --> Bot connected to Discord - 0.0.0
+2020-08-09 19:26:43.294191 --> Updated Save File
+2020-08-09 19:47:10.283289 --> Bot connected to Discord - 0.0.0
+2020-08-09 19:47:10.283715 --> Updated Save File
+2020-08-09 20:38:39.219090 --> Bot connected to Discord - 0.0.0
+2020-08-09 20:38:39.219647 --> Updated Save File
+2020-08-15 19:06:55.520141 --> Bot connected to Discord - 0.0.0
+2020-08-15 19:06:55.520693 --> Updated Save File
+2020-08-15 19:07:33.186919 --> Bot connected to Discord - 0.0.0
+2020-08-15 19:07:33.187307 --> Updated Save File
+2020-08-15 19:07:58.597633 --> Bot connected to Discord - 0.0.0
+2020-08-15 19:07:58.597907 --> Updated Save File
+2020-08-15 19:10:19.708898 --> Bot connected to Discord - 0.0.0
+2020-08-15 19:10:19.709399 --> Updated Save File
+2020-08-15 19:15:37.253057 --> Bot connected to Discord - 0.0.0
+2020-08-15 19:15:37.253531 --> Updated Save File
+2020-08-15 19:19:32.786545 --> Bot connected to Discord - 0.0.0
+2020-08-15 19:19:32.787044 --> Updated Save File
+2020-08-15 19:22:25.648442 --> Bot connected to Discord - 0.0.0
+2020-08-15 19:22:25.648845 --> Updated Save File
+2020-08-15 19:23:06.364390 --> Bot connected to Discord - 0.0.0
+2020-08-15 19:23:06.364969 --> Updated Save File
+2020-08-15 19:30:27.223228 --> Bot connected to Discord - 0.0.0
+2020-08-15 19:30:27.223879 --> Updated Save File
+2020-08-16 16:14:44.422701 --> Bot connected to Discord - 0.0.0
+2020-08-16 16:14:44.423187 --> Updated Save File
+2020-08-16 16:16:42.062763 --> Bot connected to Discord - 0.0.0
+2020-08-16 16:16:42.063155 --> Updated Save File
+2020-08-16 16:21:35.942649 --> Bot connected to Discord - 0.0.0
+2020-08-16 16:21:35.943046 --> Updated Save File
+2020-08-16 16:22:06.193736 --> Bot connected to Discord - 0.0.0
+2020-08-16 16:22:06.194671 --> Updated Save File
+2020-08-16 16:27:18.991559 --> Bot connected to Discord - 0.0.0
+2020-08-16 16:27:18.992104 --> Updated Save File
+2020-08-16 16:30:25.255073 --> Bot connected to Discord - 0.0.0
+2020-08-16 16:30:25.255713 --> Updated Save File
+2020-08-16 16:34:20.463929 --> Bot connected to Discord - 0.0.0
+2020-08-16 16:34:20.464746 --> Updated Save File
+2020-08-16 16:43:20.965206 --> Bot connected to Discord - 0.0.0
+2020-08-16 16:43:20.966101 --> Updated Save File
+2020-08-16 16:44:38.662806 --> Bot connected to Discord - 0.0.0
+2020-08-16 16:44:38.663482 --> Updated Save File
+2020-08-16 17:19:40.441729 --> Bot connected to Discord - 0.0.0
+2020-08-16 17:19:40.442474 --> Updated Save File

@@ -1,50 +1,11 @@
-import os
-import random
-import math
-import re
-import requests
-import emoji
-import json
-import sys
-from datetime import datetime, timedelta
-import string
-
-import discord
-from dotenv import load_dotenv
-from textwrap import wrap
-
-load_dotenv()
-token = os.getenv('DISCORD_TOKEN')
-client = discord.Client()
+from functions import *
 
 
 VERSION = "0.0.0"
 
-
-
-SAVEPATH = sys.argv[0][:sys.argv[0].find("LPM.py")]+"save.json"
-LOGPATH = sys.argv[0][:sys.argv[0].find("LPM.py")]+"log.txt"
-
-
-
-REACTION_SETUP = ["edit","change_deadline","delete","add_subtask","help"]
-EMOJI = {
-    "help":"❔",
-    "delete":"❌",
-    "edit":"✏️",
-    "add_subtask":"📎",
-    "change_deadline":"⌛",
-    "complete":"✅",
-    "lock":"🔒",
-    "unlock":"🔓",
-    "pin":"📌",
-    "start":"▶️",
-    "info":"ℹ️"
-}
 data = []
 
-
-
+open_tasks = {}
 
 ### ON READY
 @client.event
@@ -57,6 +18,8 @@ async def on_ready():
     save()
 
 
+# ---------------------------------------------------
+
 
 
 ### MAIN CODE
@@ -67,34 +30,76 @@ async def on_message(message):
     user = message.author
     msgtype = str(message.channel.type)
     #info
-    if user == client.user:
-        
-        return
+    if user == client.user: return
 
+
+
+
+# ---- test ---- #
+
+#    x = time(message.content)
+
+#    if isinstance(x, str):
+#        if str(time(message.content)) != "Invalid input.":
+#            await message.channel.send(x)
+#    else:
+#        y = chop_microseconds(x - datetime.utcnow())
+#        x = x.strftime("%c")
+#        await message.channel.send(f"{x} UTC\n{y} left")
+
+
+# ---- test ---- #
+
+
+    #await message.channel.send(user.display_name+":", file=discord.File(png(create_bubble(message.clean_content)), "message.png"))
+    #await message.delete()
+# ---- test ---- #
+
+
+
+
+    return
 
     if message.content.lower() == "lpm help":
-        pass
+        bot_msg = await message.channel.send(BOT["unavailable"]) # REPLACE LINE
+        await bot_msg.delete(delay=5)
+        return
 
     elif message.content.lower() == "tasks":
-        for task in fetch_tasks("members", user.id):
-            task_index = data.index(task)
+        user_tasks = fetch_tasks("members", user.id)
+        if len(user_tasks) == 0: # send error if user has no tasks
+            bot_msg = await message.channel.send(BOT["no_tasks"])
+            await bot_msg.delete(delay=5)
+            return
+
+        open_tasks[message.channel.id] = user_tasks
+
+        for task in user_tasks:
             task_message = ""
             if task["sublevel"] > 0:
                 task_message = f"**Subtask lvl {task['sublevel']}:** "
             task_message += task["task"]
             if task["author"]["id"] != user.id:
-                task_message += "\n - " + task["author"]["name"]
+                task_message += "\n - " + task["author"]["name"] 
             bot_msg = await message.channel.send(task_message)
-            data[task_index]["edit"] = bot_msg.id
-            
-            if task["status"] == "ongoing":
+            try:
+                prev_msg = await message.channel.fetch_message(task["edit"])
+                await prev_msg.clear_reactions()
+            except: pass
+            edit_task(data, task["edit"], "edit", bot_msg.id)
+
+            if task["status"] == "pending":
                 await bot_msg.add_reaction(EMOJI["start"])
             elif task["status"] == "started":
                 await bot_msg.add_reaction(EMOJI["complete"])
-            for x in REACTION_SETUP:
+            for x in MINIMAL_SETUP:
                 await bot_msg.add_reaction(EMOJI[x])
+        return
 
 
+    elif re.fullmatch(r"task ?\d+", message.content.lower()):
+        try:
+            len(open_tasks[])
 
 
     if msgtype != "text": return
@@ -102,104 +107,233 @@ async def on_message(message):
 
     if message.content.lower().find("project") == 0:
         #fetch_tasks("guild", message.guild.id)
-        pass
+        await message.channel.send(BOT["unavailable"]) # REPLACE LINE
+
 
     elif len(re.findall(r"<@[!&]\d+>(?=\W*?\w)", message.content)) > 0:
-        info = get_task_info(message.content, message.guild)
+        info = task_info_from_message(message.content, message.guild)
         info["edit"] = message.id
         info["author"]["id"] = user.id
         info["author"]["name"] = user.display_name
         data.append(info)
         save()
-        for x in REACTION_SETUP:
+        await message.add_reaction(EMOJI["start"])
+        for x in MINIMAL_SETUP:
             await message.add_reaction(EMOJI[x])
 
+
+
+# ---------------------------------------------------
 
 
 
 @client.event
 async def on_reaction_add(reaction, user):
-    if user == client.user: return
-    command = get_input(reaction.emoji)
+    command = get_key(reaction.emoji, EMOJI)
+    msg = reaction.message
+    task = edit_task(data, msg.id, "fetch", 0)
+    topic = get_key(msg.content, BOT)
+    remap = False
 
-    if command == "delete":
-        pass # make commands and the "edit_task(task, parameter, edit)" function
-
-
-
-def get_input(input_emoji):
-    for x in EMOJI:
-        if EMOJI[x] == input_emoji:
-            return x
-
-def extract_subtasks(all_tasks):
-    done = True
-    new_tasks = all_tasks
-
-    for task in all_tasks:
-        if task["subtasks"] != []:
-            done = False
-            for x in task["subtasks"]:
-                x_index = task["subtasks"].index(x)
-                del task["subtasks"][x_index]
-                new_tasks.insert(all_tasks.index(task)+1, x)
-
-    if done: return new_tasks
-    else: return extract_subtasks(new_tasks)
+    if task == None or command == None or user == client.user: return
+    await msg.clear_reactions()
 
 
-def fetch_tasks(search_type, search_id):
-    global data
-    tasks = []
-    for task in extract_subtasks(data):
-        if search_type == "members":
-            if search_id in task[search_type]:
-                tasks.append(task)
-        elif search_type == "guild" and task[search_type] == search_id:
-            tasks.append(task)
-    return tasks
+    # bot questions
+    if topic != None and user.id == task["editing"] and task["edit_status"] == "menu":
+        edit_task(data, msg.id, "edit_status", "")
+        
+        if topic == "delete":
+            if command == "complete":
+                edit_task(data, msg.id, "delete", 0)
+                bot_msg = await msg.channel.send(BOT["deleted"])
+                await msg.delete()
+                try:
+                    last_msg = await msg.channel.fetch_message(task["last_edit"])
+                    await last_msg.delete()
+                except: pass
+                await bot_msg.delete(delay=5)
+                save()
+                return
+            elif command == "cancel":
+                edit_task(data, msg.id, "edit", task["last_edit"])
+                remap = True
+                await msg.delete()
+
+        elif topic == "complete":
+            if command == "complete":
+                edit_task(data, msg.id, "status", "completed")
+                bot_msg = await msg.channel.send(BOT["completed"])
+                await msg.delete()
+                try:
+                    last_msg = await msg.channel.fetch_message(task["last_edit"])
+                    await last_msg.delete()
+                except: pass
+                await bot_msg.delete(delay=5)
+                save()
+                return
+            elif command == "cancel":
+                edit_task(data, msg.id, "edit", task["last_edit"])
+                remap = True
+                await msg.delete()
+
+        elif topic == "edit":
+            if command == "edit":
+                remap = True
+                edit_task(data, msg.id, "edit", task["last_edit"])
+                await msg.delete()
+                bot_msg = await msg.channel.send(BOT["unavailable"]) # REPLACE LINE
+                await bot_msg.delete(delay=5)
+            elif command == "change_deadline":
+                remap = True
+                edit_task(data, msg.id, "edit", task["last_edit"])
+                await msg.delete()
+                bot_msg = await msg.channel.send(BOT["unavailable"]) # REPLACE LINE
+                await bot_msg.delete(delay=5)
+            elif command == "delete":
+                await msg.delete()
+                bot_msg = await msg.channel.send(BOT[command])
+                edit_task(data, msg.id, "edit_status", "menu")
+                edit_task(data, msg.id, "edit", bot_msg.id)
+                for x in QUESTION_SETUP:
+                    await bot_msg.add_reaction(EMOJI[x])
+                save()
+                return
+            elif command == "cancel":
+                edit_task(data, msg.id, "edit", task["last_edit"])
+                remap = True
+                await msg.delete()
+    #elif topic != None and task["edit_status"] == "menu":
 
 
-def get_task_info(msg, guild):
-    task_members = []
-    all_mentions = re.findall(r"<@[!&]\d+>", msg)
-    new_msg = msg
-    task_roles = []
-    for mention in all_mentions:
-        mention_type = get_type(mention)
-        mention_id = int(mention[3:len(mention)-1])
-        separation = new_msg[:new_msg.find(mention)]
-        if len(re.findall(r"\w+", separation)) > 1: break
-        if mention_type == "user":
-            if not mention_id in task_members:
-                task_members.append(mention_id)
-        elif mention_type == "role":
-            if mention_id in task_roles: continue
-            task_roles.append(mention_id)
-            for user in guild.get_role(mention_id).members:
-                if not mention_id in task_members:
-                    task_members.append(user.id)
-        new_msg = new_msg[len(separation)+len(mention):]
+    # commands for everyone
+    if not remap:
+        if command == "help":
+            remap = True
+            bot_msg = await msg.channel.send(BOT["unavailable"]) # REPLACE LINE
+            await bot_msg.delete(delay=5)
 
-    return_dict = {
-        "task":re.findall(r"\w[\s\S]*", new_msg)[0],
-        "members":task_members,
-        "roles":task_roles,
-        "author":{"id":0,"name":""},
-        "deadline":None,
-        "guild":guild.id,
-        "pinned":False,
-        "locked":False,
-        "status":"ongoing",
-        "edit":0,
-        "sublevel":0,
-        "subtasks":[]
-    }
-    return return_dict
+        elif command == "info":
+            remap = True
+            bot_msg = await msg.channel.send(BOT["unavailable"]) # REPLACE LINE
+            await bot_msg.delete(delay=5)
 
-def get_type(mention):
-    if mention[2] == "!": return "user"
-    elif mention[2] == "&": return "role"
+    # check if participant
+    participating = False
+    for role in task["roles"]:
+        for user_role in user.roles:
+            if user_role.id == role:
+                participating = True
+    for member in task["members"]:
+        if user.id == member:
+            participating = True
+
+    if not participating:
+        if command in PERMS["member"]:
+            remap = True
+            bot_msg = await msg.channel.send(BOT["dedication"])
+            await bot_msg.delete(delay=5)
+
+
+    # Commands for the participant
+    elif not remap:
+        if command == "start" and task["status"] == "pending":
+            remap = True
+            edit_task(data, msg.id, "working", user.id)
+            edit_task(data, msg.id, "status", "started")
+            bot_msg = await msg.channel.send(BOT["started"])
+            await bot_msg.delete(delay=5)
+
+        elif command == "complete" and task["status"] == "started":
+            if user.id == task["working"]:
+                bot_msg = await msg.channel.send(BOT[command])
+                edit_task(data, msg.id, "edit_status", "menu")
+                edit_task(data, msg.id, "editing", user.id)
+                edit_task(data, msg.id, "last_edit", task["edit"])
+                edit_task(data, msg.id, "edit", bot_msg.id)
+                for x in QUESTION_SETUP:
+                    await bot_msg.add_reaction(EMOJI[x])
+                save()
+                return
+
+            else:
+                remap = True
+                bot_msg = await msg.channel.send(BOT["worker"])
+                await bot_msg.delete(delay=5)
+        
+        elif command == "edit":
+            if user.id == task["working"] or user.id == task["author"]["id"]:
+                bot_msg = await msg.channel.send(BOT["edit"])
+                
+                edit_task(data, msg.id, "edit_status", "menu")
+                edit_task(data, msg.id, "last_edit", msg.id)
+                edit_task(data, msg.id, "editing", user.id)
+                edit_task(data, msg.id, "edit", bot_msg.id)
+                for x in EDIT_SETUP:
+                    await bot_msg.add_reaction(EMOJI[x])
+                return
+            else:
+                remap = True
+                bot_msg = await msg.channel.send(BOT["worker"])
+                await bot_msg.delete(delay=5)
+
+
+    # commands for the task managers
+    if (user.id == task["author"]["id"] or participating) and not remap:
+        if command == "add_subtask":
+            remap = True
+            #bot_msg = await msg.channel.send(BOT["subtask"])
+            #edit_task(data, msg.id, "edit_status", "menu")
+            #edit_task(data, msg.id, "last_edit", msg.id)
+            #edit_task(data, msg.id, "e", user.id)
+            bot_msg = await msg.channel.send(BOT["unavailable"]) # REPLACE LINE
+            await bot_msg.delete(delay=5)
+
+        elif command == "change_deadline":
+            remap = True
+            bot_msg = await msg.channel.send(BOT["unavailable"]) # REPLACE LINE
+            await bot_msg.delete(delay=5)
+
+
+    # check if author
+    if user.id != task["author"]["id"] and not remap:
+        if command in PERMS["author"]:
+            remap = True
+            bot_msg = await msg.channel.send(BOT["authority"])
+            await bot_msg.delete(delay=5)
+
+
+    # Commands for the task author
+    elif not remap:
+
+        if command == "edit":
+            bot_msg = await msg.channel.send(BOT["edit"])
+            edit_task(data, msg.id, "edit_status", "menu")
+            edit_task(data, msg.id, "last_edit", msg.id)
+            edit_task(data, msg.id, "editing", user.id)
+            edit_task(data, msg.id, "edit", bot_msg.id)
+            for x in EDIT_SETUP:
+                await bot_msg.add_reaction(EMOJI[x])
+            return
+
+
+    if remap:
+        try:
+            if topic != None:
+                msg = await msg.channel.fetch_message(task["edit"])
+            await msg.clear_reactions()
+            if task["status"] == "pending":
+                await msg.add_reaction(EMOJI["start"])
+            elif task["status"] == "started":
+                await msg.add_reaction(EMOJI["complete"])
+            for x in MINIMAL_SETUP:
+                await msg.add_reaction(EMOJI[x])
+        except: pass
+    save()
+
+
+
+# ---------------------------------------------------
 
 def save():
     global data
@@ -221,9 +355,17 @@ def save():
         f.write(json_data)
     write_log("Updated Save File")
 
-def write_log(log_text):
-    with open(LOGPATH, "a") as f:
-        f.write(str(datetime.now())+" --> "+log_text+"\n")
+def fetch_tasks(search_type, search_id):
+    global data
+    tasks = []
+    for task in extract_subtasks(data):
+        if search_type == "members":
+            if search_id in task[search_type]:
+                tasks.append(task)
+        elif search_type == "guild" and task[search_type] == search_id:
+            tasks.append(task)
+    return tasks
+
 
 
 client.run(token)

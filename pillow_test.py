@@ -1,10 +1,11 @@
-from PIL import Image
-from PIL import ImageFont
-from PIL import ImageDraw
+from PIL import Image, ImageFont, ImageDraw
 from math import sqrt
 from textwrap import wrap
 import re
 import string
+
+
+
 
 COL = {
     "blue":[114,137,218],
@@ -68,13 +69,12 @@ def draw_box(start,end,col,r,w,draw):
             (start[0]+w/2,start[1]+r)
         ]]]
 
-
     for x in box_info:
         draw.arc(x[0],x[1],x[2],fill=col,width=w)
         draw.line(x[3],fill=col,width=w)
 
-def normal(from_i,to_i,with_i,max_i):
-    return (with_i-from_i)*(max_i/(to_i-from_i))
+normal = lambda from_i, to_i, with_i, max_output = 1.0: (with_i - from_i) * (max_output / (to_i - from_i))
+interpolate = lambda from_i, to_i, with_i: (to_i - from_i) * with_i + from_i
 
 def shade(x,y, size):
     from_col = COL["dark"]
@@ -82,7 +82,7 @@ def shade(x,y, size):
 
     colour = [0,0,0]
     for i in range(3):
-        colour[i] = int((to_col[i]-from_col[i])*y+from_col[i])
+        colour[i] = int(interpolate(from_col[i], to_col[i], y))
     if x < LINE_W/size[0] or x > 1-LINE_W/size[0]:
         return (0)
     elif y < LINE_W/size[1] or y > 1-LINE_W/size[1]:
@@ -203,6 +203,8 @@ text = [
     #{"task":"Awesome!\nI like apples, I will take 25 please","sublevel":1},
     #{"task":"testing testing","sublevel":0}
 ]
+
+
 
 
 create_image(text)
